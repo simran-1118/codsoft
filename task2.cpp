@@ -18,7 +18,7 @@ int main()
 
     double result;
 
-    // use switch case:
+
     switch(operation){
         case '+':
         result = (num1 + num2);
