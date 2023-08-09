@@ -10,7 +10,6 @@ int main()
     srand(time(0));
 
     int randomNumber = rand() % 100 + 1;
-
   
     int guess;
     int attempts = 0;
@@ -31,15 +30,12 @@ int main()
         }
 
         attempts++;
-        
 
     }
     while(guess != randomNumber);
 
-
     cout<<"Congratulations! You guessed the number in "<<attempts<<" attempts:"<<endl;
     cout<<endl;
-
 
     return 0;
 }
