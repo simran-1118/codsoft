@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-
     srand(time(0));
 
     int randomNumber = rand() % 100 + 1;
@@ -14,7 +13,7 @@ int main()
     int guess;
     int attempts = 0;
 
-    cout<<"Welcome to the Number Guessing Game! "<<endl;
+    cout<<"This is the  Number Guessing Game..."<<endl;
     cout<<endl;
 
     do{
@@ -34,7 +33,7 @@ int main()
     }
     while(guess != randomNumber);
 
-    cout<<"Congratulations! You guessed the number in "<<attempts<<" attempts:"<<endl;
+    cout<<"Congratulations! You  have guessed the number in "<<attempts<<" attempts:"<<endl;
     cout<<endl;
 
     return 0;
